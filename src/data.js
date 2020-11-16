@@ -131,7 +131,7 @@ const projects = [
     name: 'JInventory',
     image: IMGJinventory,
     madeWith: 'Codeigniter',
-    demo: 'http://smkn7baleendah.sch.id/',
+    demo: '',
     github: '',
     description: 'JInventory merupakan aplikasi gudang + POS (Point Of Sales) untuk fitur sendiri user dapat melakukan jual dan beli barang, stock in/out, support multi cabang, deteksi barang akan kadaluarsa, dll.',
     tags: [
