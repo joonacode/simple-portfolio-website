@@ -20,7 +20,7 @@ const projects = [
     madeWith: 'MERN',
     demo: 'https://react-mc.netlify.app',
     github: '',
-    description: 'Mangga Chat (versi react) merupakan aplikasi real time chat yang dapat mengirim chat private maupun grup. Mangga chat memiliki fitur add friend, create group, acc friend, live notif. Di buat menggunakan MERN stack (MySQL, ExpressJs, ReactJs, NodeJs) dan SocketIO. Untuk versi react sendiri sudah support dark mode.',
+    description: 'Mangga Chat (versi react) merupakan aplikasi real time chat yang dapat mengirim chat private maupun grup. Mangga chat memiliki fitur add friend, create group, acc friend, live notif. Di buat menggunakan MERN stack (MySQL, ExpressJs, ReactJs, NodeJs) dan SocketIO. Untuk versi react sendiri sudah support dark mode dan masih dalam tahap penyalinan dari vue ke react.',
     tags: [
       'ReactJs',
       'MySQL',
@@ -60,7 +60,7 @@ const projects = [
       'MySQL',
       'ExpressJs',
       'NodeJs',
-      'Vuex',
+      'Redux',
     ],
     type: 'Individu'
   },
@@ -86,7 +86,7 @@ const projects = [
     madeWith: 'MEVN',
     demo: '',
     github: 'http://bit.ly/tokofuku_git',
-    description: 'TokoFuku merupakan sebuah aplikasi e-commerce yang mempunyai fitur jual beli, user dapat mendaftar menjadi seller ataupun customer. Aplikasi ini dibuat menggunakan MEVN stack (MySQL, ExpressJs, VueJs, NodeJs).',
+    description: 'TokoFuku merupakan sebuah aplikasi e-commerce yang mempunyai fitur jual beli, user dapat mendaftar menjadi seller ataupun customer. Aplikasi ini dibuat menggunakan MEVN stack (MySQL, ExpressJs, VueJs, NodeJs). (link demo menyusul)',
     tags: [
       'VueJs',
       'MySQL',
@@ -103,7 +103,7 @@ const projects = [
     madeWith: 'MEVN',
     demo: '',
     github: 'https://bit.ly/Zwallet_git',
-    description: 'ZWallet merupakan aplikasi e-money yang di dalam aplikasi tersebut terdapat beberapa fitur seperti transfer uang ke sesama user dan top up balance. Aplikasi ini dibuat menggunakan MEVN stack (MySQL, ExpressJs, VueJS, NodeJs).',
+    description: 'ZWallet merupakan aplikasi e-money yang di dalam aplikasi tersebut terdapat beberapa fitur seperti transfer uang ke sesama user dan top up balance. Aplikasi ini dibuat menggunakan MEVN stack (MySQL, ExpressJs, VueJS, NodeJs). (link demo menyusul)',
     tags: [
       'VueJs',
       'MySQL',
