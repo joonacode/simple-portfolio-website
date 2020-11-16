@@ -2,6 +2,9 @@ import { useState } from 'react'
 import projects from './data'
 import './App.css'
 import ModalImage from './ModalImage'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 function App() {
 
   const [show, setShow] = useState(false);
@@ -27,7 +30,13 @@ function App() {
               <div className="col-md-4 mb-4">
                 <div className="card">
                   <div className="position-relative">
-                    <img src={project.image} alt={project.name} className="img-fluid cursor-pointer" onClick={() => handleShow(project)} />
+                    <LazyLoadImage
+                      src={project.image}
+                      alt={project.name}
+                      effect="blur"
+                      className="img-fluid cursor-pointer" 
+                      onClick={() => handleShow(project)}
+                     />
                     <div className="tags">
                       <span className="badge badge-secondary">{project.madeWith}</span>
                     </div>

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Modal, Button } from 'react-bootstrap'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function ModalImage({show, handleClose, detail}) {
   return (
@@ -9,7 +11,12 @@ function ModalImage({show, handleClose, detail}) {
       </Modal.Header>
       <Modal.Body>
         <div className="modal-polio">
-          <img src={detail.image} alt={detail.name} className="img-thumbnail mb-3" />
+          <LazyLoadImage
+            src={detail.image}
+            alt={detail.name}
+            effect="blur"
+            className="img-fluid mb-3" 
+          />
           <p className="title">Nama</p>
           <p className="sub-title">{detail.name}</p>
           <p className="title">Tech Stack</p>
@@ -22,7 +29,6 @@ function ModalImage({show, handleClose, detail}) {
           <p className="sub-title">{detail.tags.join(', ')}</p>
           <a href={detail.demo} rel="noreferrer" target="_blank" className={`btn btn-sm btn-primary mr-2${!detail.demo ? ' disabled' : ''}`}>Demo</a>
           <a href={detail.github} rel="noreferrer" target="_blank" className={`btn btn-sm btn-success ${!detail.github ? ' disabled' : ''}`}>Repo Github</a>
-          
         </div>
       </Modal.Body>
       <Modal.Footer>
