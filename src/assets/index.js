@@ -8,6 +8,13 @@ import IMGTokoFuku from './images/tokofuku.png'
 import IMGSch from './images/smkn7.png'
 import IMGJinventory from './images/jinventory.png'
 
+import IMGWoocommerce from './images/woocommerce.png'
+import IMGDatawarehouse from './images/datawarehouse.png'
+import IMGSmartwatch from './images/smartwatch.png'
+import IMGEcocabins from './images/ecocabins.png'
+import IMGTimeline from './images/jtimeline.png'
+import IMGJdatabase from './images/jdatabase.png'
+
 export {
   IMGJoonaCovid,
   IMGMcReact,
@@ -17,5 +24,11 @@ export {
   IMGZwallet,
   IMGTokoFuku,
   IMGSch,
-  IMGJinventory
+  IMGJinventory,
+  IMGWoocommerce,
+  IMGDatawarehouse,
+  IMGSmartwatch,
+  IMGEcocabins,
+  IMGTimeline,
+  IMGJdatabase,
 }
