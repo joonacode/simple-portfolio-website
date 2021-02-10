@@ -14,6 +14,8 @@ import {
   IMGEcocabins,
   IMGTimeline,
   IMGJdatabase,
+  IMGBwaHotel,
+  IMGTokoHijau,
 } from './assets'
 
 const projects = [
@@ -43,7 +45,7 @@ const projects = [
     name: 'Mangga Chat Vue',
     image: IMGMcVue,
     madeWith: 'MEVN',
-    demo: 'http://bit.ly/Manggachat',
+    demo: 'https://react-mc.netlify.app',
     github: 'http://bit.ly/manggachatgit',
     description:
       'Mangga Chat (versi vue) merupakan aplikasi real time chat yang dapat mengirim chat private maupun grup. Mangga chat memiliki fitur add friend, create group, acc friend, live notif. Di buat menggunakan MEVN stack (MySQL, ExpressJs, VueJs, NodeJs) dan SocketIO.',
@@ -184,6 +186,27 @@ const projects = [
       'Sweetalert',
       'Toastify',
     ],
+    type: 'Individu',
+  },
+  {
+    name: 'Lentera House',
+    image: IMGBwaHotel,
+    madeWith: 'NextJS + Chakra UI',
+    demo: '',
+    github: 'https://github.com/joonacode/lentera-house-bwa',
+    description: 'Latihan Chakra UI dan NextJS dengan slicing design web.',
+    tags: ['NextJs', 'Typescript', 'Chakra UI'],
+    type: 'Individu',
+  },
+  {
+    name: 'Toko Hijau',
+    image: IMGTokoHijau,
+    madeWith: 'ReactJS + Chakra UI',
+    demo: 'https://tokohijau.netlify.app/',
+    github: 'https://github.com/joonacode/toko-hijau',
+    description:
+      'Toko Hijau is a website where you can buy and sell anything online',
+    tags: ['ReactJs', 'Typescript', 'Chakra UI'],
     type: 'Individu',
   },
 ]

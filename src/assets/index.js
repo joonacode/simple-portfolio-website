@@ -15,7 +15,12 @@ import IMGEcocabins from './images/ecocabins.png'
 import IMGTimeline from './images/jtimeline.png'
 import IMGJdatabase from './images/jdatabase.png'
 
+import IMGBwaHotel from './images/bwa.png'
+import IMGTokoHijau from './images/toko-hijau.png'
+
 export {
+  IMGTokoHijau,
+  IMGBwaHotel,
   IMGJoonaCovid,
   IMGMcReact,
   IMGMcVue,
