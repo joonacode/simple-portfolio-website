@@ -13,7 +13,6 @@ import {
   IMGSmartwatch,
   IMGEcocabins,
   IMGTimeline,
-  IMGJdatabase,
   IMGBwaHotel,
   IMGTokoHijau,
 } from './assets'
@@ -168,31 +167,12 @@ const projects = [
     tags: ['ReactJs', 'Tailwind CSS'],
     type: 'Individu',
   },
-  {
-    name: 'JDatabase',
-    image: IMGJdatabase,
-    madeWith: 'MERN Typescript',
-    demo: '',
-    github: '',
-    description:
-      'Jdatabase merupakan aplikasi untuk menyimpan data barang dan harga warung saya. Karena saya tidak tahu semua harga barang jadi saya buat website ini dengan fitur voice to search product.',
-    tags: [
-      'ReactJs',
-      'Tailwind CSS',
-      'Express',
-      'Typescript',
-      'NodeJs',
-      'MySQL',
-      'Sweetalert',
-      'Toastify',
-    ],
-    type: 'Individu',
-  },
+
   {
     name: 'Lentera House',
     image: IMGBwaHotel,
     madeWith: 'NextJS + Chakra UI',
-    demo: '',
+    demo: 'https://lentera-house-bwa.vercel.app/',
     github: 'https://github.com/joonacode/lentera-house-bwa',
     description: 'Latihan Chakra UI dan NextJS dengan slicing design web.',
     tags: ['NextJs', 'Typescript', 'Chakra UI'],
