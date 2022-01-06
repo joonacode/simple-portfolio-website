@@ -15,7 +15,12 @@ import {
   IMGTimeline,
   IMGBwaHotel,
   IMGTokoHijau,
-} from './assets'
+  IMGBmao,
+  IMGJoowal,
+  IMGMintify,
+  IMGPsycho,
+  IMGTranslate,
+} from './assets';
 
 const projects = [
   {
@@ -172,7 +177,7 @@ const projects = [
     name: 'Lentera House',
     image: IMGBwaHotel,
     madeWith: 'NextJS + Chakra UI',
-    demo: 'https://lentera-house-bwa.vercel.app/',
+    demo: 'https://lentera-house.joonacode.com/',
     github: 'https://github.com/joonacode/lentera-house-bwa',
     description: 'Latihan Chakra UI dan NextJS dengan slicing design web.',
     tags: ['NextJs', 'Typescript', 'Chakra UI'],
@@ -189,6 +194,60 @@ const projects = [
     tags: ['ReactJs', 'Typescript', 'Chakra UI'],
     type: 'Individu',
   },
-]
+  {
+    name: 'BMAO',
+    image: IMGBmao,
+    madeWith: 'NextJS + Chakra UI',
+    demo: 'http://bmao.joonacode.com/',
+    github: 'https://github.com/joonacode/bmao-al-quran-online',
+    description:
+      "Project latihan next js menggunakan fitur getStaticProps, getStaticPaths & locale. Nama projectnya BMAO (Baca Menghafal Al-Qur'an Online) di website tersebut temen-temen bisa membaca dan juga mendengarkan lantunan ayat Al-Qur'an berupa audio. Project ini di buat menggunakan NextJs dan Chakra UI dan beberapa library tambahan seperti react-icons, react-player, react-scroll & next-seo.",
+    tags: ['NextJS', 'Chakra UI'],
+    type: 'Individu',
+  },
+  {
+    name: 'Joowal',
+    image: IMGJoowal,
+    madeWith: 'NextJS + Chakra UI',
+    demo: 'https://joowal.joonacode.com/',
+    github: 'https://github.com/joonacode/joowal',
+    description:
+      'Joowal merupkan website sederhana yang menampilkan list photo dengan fitur tambahan download & pencarian. Selain dari itu tujuan dari pembuatan website ini untuk mencoba menyembunyikan api key dari network tab tanpa menghilangkan fitur utama yaitu infinite scroll.',
+    tags: ['NextJS', 'Chakra UI', 'Typescript'],
+    type: 'Individu',
+  },
+  {
+    name: 'Mintify',
+    image: IMGMintify,
+    madeWith: 'NextJS + Chakra UI',
+    demo: 'https://mintify.joonacode.com/',
+    github: 'https://github.com/joonacode/mintify_nft_marketplace',
+    description:
+      'Membuat responsive nft marketplace dengan nextjs & chakra ui.',
+    tags: ['NextJS', 'Typescript'],
+    type: 'Individu',
+  },
+  {
+    name: 'PsychoArt',
+    image: IMGPsycho,
+    madeWith: 'NextJS + Tailwindcss',
+    demo: 'https://psychoart.joonacode.com/',
+    github: 'https://github.com/joonacode/psychoart_landing_page',
+    description: 'Mencoba tailwindcss v3.0 dengan meng slicing landing page.',
+    tags: ['NextJS', 'Tailwindcss'],
+    type: 'Individu',
+  },
+  {
+    name: 'Joona Translate',
+    image: IMGTranslate,
+    madeWith: 'NextJS + Tailwindcss',
+    demo: 'https://translate.joonacode.com/',
+    github: '',
+    description:
+      'Mencoba clone google translate menggunakan nextjs & tailwindcss',
+    tags: ['NextJS', 'Tailwindcss'],
+    type: 'Individu',
+  },
+];
 
-export default projects
+export default projects;
