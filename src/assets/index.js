@@ -24,7 +24,10 @@ import IMGMintify from './images/mintify.png';
 import IMGPsycho from './images/psycho.png';
 import IMGTranslate from './images/translate.png';
 
+import IMGJoonaAnime from './images/joonaanime.png';
+
 export {
+  IMGJoonaAnime,
   IMGBmao,
   IMGJoowal,
   IMGMintify,

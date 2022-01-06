@@ -20,6 +20,7 @@ import {
   IMGMintify,
   IMGPsycho,
   IMGTranslate,
+  IMGJoonaAnime,
 } from './assets';
 
 const projects = [
@@ -246,6 +247,16 @@ const projects = [
     description:
       'Mencoba clone google translate menggunakan nextjs & tailwindcss',
     tags: ['NextJS', 'Tailwindcss'],
+    type: 'Individu',
+  },
+  {
+    name: 'Joona Anime',
+    image: IMGJoonaAnime,
+    madeWith: 'Vanilla JS + Bootstrap',
+    demo: 'https://joona-anime.web.app/',
+    github: 'https://github.com/joonacode/Joona-Anime',
+    description: 'Website sederhana untuk mencari anime',
+    tags: ['Vanilla JS', 'Bootstrap'],
     type: 'Individu',
   },
 ];
