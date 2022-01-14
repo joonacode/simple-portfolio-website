@@ -1,5 +1,5 @@
 import IMGJoonaCovid from './images/joonacovid.png';
-import IMGMcReact from './images/mc-react.png';
+import IMGMcReact from './images/mc.png';
 import IMGMcVue from './images/mc-vue.png';
 import IMGOblongs from './images/oblongs.png';
 import IMGSipPos from './images/sippos.png';

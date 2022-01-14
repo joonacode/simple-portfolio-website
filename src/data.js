@@ -39,7 +39,7 @@ const projects = [
     name: 'Mangga Chat React',
     image: IMGMcReact,
     madeWith: 'MERN',
-    demo: 'https://react-mc.netlify.app',
+    demo: 'https://manggachat.joonacode.com/',
     github: '',
     description:
       'Mangga Chat (versi react) merupakan aplikasi real time chat yang dapat mengirim chat private maupun grup. Mangga chat memiliki fitur add friend, create group, acc friend, live notif. Di buat menggunakan MERN stack (MySQL, ExpressJs, ReactJs, NodeJs) dan SocketIO. Untuk versi react sendiri sudah support dark mode dan masih dalam tahap penyalinan dari vue ke react.',
@@ -50,7 +50,7 @@ const projects = [
     name: 'Mangga Chat Vue',
     image: IMGMcVue,
     madeWith: 'MEVN',
-    demo: 'https://react-mc.netlify.app',
+    demo: 'https://manggachat.joonacode.com/',
     github: 'http://bit.ly/manggachatgit',
     description:
       'Mangga Chat (versi vue) merupakan aplikasi real time chat yang dapat mengirim chat private maupun grup. Mangga chat memiliki fitur add friend, create group, acc friend, live notif. Di buat menggunakan MEVN stack (MySQL, ExpressJs, VueJs, NodeJs) dan SocketIO.',
